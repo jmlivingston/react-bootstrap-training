@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Spacing = () => {
+const Spacing = ({ title }) => {
   return (
     <div>
       <div className="row no-gutters">
@@ -8,7 +8,7 @@ const Spacing = () => {
           <div className="card p-0">
             <img className="card-img-top" src="http://via.placeholder.com/350x150" alt="Card cap" />
             <div className="card-body p-5">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">{title}</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </p>

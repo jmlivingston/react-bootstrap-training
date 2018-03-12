@@ -14,7 +14,7 @@ class App extends Component {
       <div className="container-fluid">
         {/* <h1>Hello World!</h1>
         <button className="btn btn-primary">Push Me</button> */}
-        <Spacing />
+        <Spacing title="Test 123" />
       </div>
     )
   }
